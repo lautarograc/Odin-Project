@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+body{
+    font-family: 'Scope One', serif;
+    background-color: #cccccc;
+    font-size: 20px;
+    margin:auto;
+    padding:auto;
+}
+
+.minilogo{
+    max-height: 80px;
+    width: 120px;
+    display:block;
+    position:relative;
+    right: 69.1%;
+}
+.header-banner{
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:auto;
+  }
+.header-banner a{
+    color: whitesmoke;
+    text-align: right;
+    margin:15px 15px;
+    text-decoration: darkslategrey;
+}
+.header-banner a:hover{
+    background-color: firebrick;
+    color: grey;
+}
+
+.presentation{
+    display:flex;
+    background-color:indigo;
+    justify-content: center;
+    padding: 7%;
+    align-items: center;
+
+}
+#presentation-text{
+    flex-direction: column;
+    text-align:left;
+    margin-left:-40%;
+    color:#8f8a2e;
+    word-wrap: break-width;
+    width: 70%;
+}
+#presentation-text h2{
+    text-align:center;
+    font-size:60px;
+    color: #7a853d;
+}
+#presentation-img{
+    min-height: 20%;
+    min-width: 20%;
+    max-width: 30%;
+    max-height: 30%;
+    border-style: groove;
+    border-color: darkolivegreen;
+    position:absolute;
+    left: 70%;
+}
+
+.content-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    flex-grow:1;
+}
+.content-stories{
+    text-align: center;
+    word-wrap: break-width;
+    width:50%;
+    background-color: #bfbfbf;
+
+}
+.content-stories ul{
+    border: 4px solid #270943;
+    border-radius: 20px;
+}
+
+
+.content-main h2{
+    flex: 1 1 100%;
+}
+#storyimg{
+    max-height: 70%; max-width: 70%;
+}
+#quote{
+    border: 10px solid #737373;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 30%;
+    font-size: larger;
+    background-color: coral;
+}
+
+#more-info{
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: right;
+    justify-content: space-around;
+    font-size: larger;
+
+}
+
+button {
+    border: none;
+    background-color: #666666;
+    color: darkslategrey;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+.foot-banner{
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+  }
+
+/*
+* { outline: solid 0.25rem hsla(210, 100%, 100%, 0.5); }*/
