@@ -10,7 +10,7 @@ def stock_picker(price)
 
     #For simplicity of reading, this prints the previous hash
     hashprices.each do |key, value|
-        puts "Day #{key} stocks price were #{value}$"    
+        puts "Day #{key} stocks price was #{value}$"    
     end
 
     #Here we iterate along the hash to find the minimum value stored and then we print this value alongside it's key (the day)
